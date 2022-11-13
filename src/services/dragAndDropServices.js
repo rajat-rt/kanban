@@ -15,6 +15,5 @@ export const drop = (ev) => {
     ev.preventDefault();
     const destLaneId = ev.target.offsetParent.id;
     var srcData = JSON.parse(ev.dataTransfer.getData("text"));
-    const srcLaneId = srcData.LaneId;
     return ({ srcData, destLaneId});
 }
