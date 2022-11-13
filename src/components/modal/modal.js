@@ -1,3 +1,10 @@
+/**
+ * This is the reusable component which is bootstrap by the redux state
+ * if anyone wants to show the modal, they have to trigger the actions 
+ * with required values and the modal is good to display on the top of
+ * the APP.
+ */
+
 import React from 'react';
 import { useSelector } from 'react-redux';
 

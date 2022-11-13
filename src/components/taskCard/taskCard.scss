@@ -3,12 +3,13 @@
     flex-direction: column;
     padding: 0.75rem;
     align-items: flex-start;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin-bottom: 12px;;
     border: 1px solid rgba(149, 157, 165, 0.2);
     border-radius: 6px;;
     position: relative;
     background-color: white;;
+    cursor: pointer;
     .type{
         >div{
             width: 10px;

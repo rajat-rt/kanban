@@ -1,3 +1,10 @@
+/**
+ * This is a reusable component which we will use to get the 
+ * Lane details/Task details from user while creation of lane
+ * and task..
+ * @props: type : task/lane
+ */
+
 import React, { useState } from 'react';
 import { TASK_TYPE } from '../../constant';
 

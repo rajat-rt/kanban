@@ -1,4 +1,4 @@
-import { CREATE_LANE, DELETE_LANE, UPDATE_STATE_FROM_CACHES, CREATE_TASK, DELETE_TASK } from '../types'
+import { CREATE_LANE, DELETE_LANE, CREATE_TASK, DELETE_TASK, DRAG_AND_DROP_TASK } from '../types'
 
 export const createNewLane = (payload) => {
     return {
@@ -28,9 +28,9 @@ export const deleteTask = (payload) => {
     }
 };
 
-export const updateKanbanStateFromCache = (payload) => {
+export const dragAndDropTaskUpdate = (payload) => {
     return {
-        type: UPDATE_STATE_FROM_CACHES,
+        type: DRAG_AND_DROP_TASK,
         payload
     }
-};
+}

@@ -18,7 +18,9 @@ function saveToLocalStorage({ kanbanData }) {
 function loadFromLocalStorage() {
     try {
         const serialisedState = localStorage.getItem(KANBAN_BOARD_CACHE_KEY);
-        if (serialisedState === null) return undefined;
+        if (serialisedState === null || serialisedState === '') {
+            return undefined
+        }
         return { kanbanData: JSON.parse(serialisedState)};
     } catch (e) {
         console.warn(e);
