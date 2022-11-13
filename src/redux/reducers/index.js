@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import { kanbanData } from './kanban_reducers';
+import { kanbanData } from './kanbanReducers';
+import { modalState } from './modalReducers';
 
 const rootReducers = combineReducers({
-    kanbanData
+    kanbanData,
+    modalState
 });
 
 export default rootReducers;

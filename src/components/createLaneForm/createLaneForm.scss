@@ -1,0 +1,44 @@
+.create-lane-form{
+    .lane-container{
+        margin-top: 2rem;
+        text-align: left;
+        >input{
+            display: block;
+            width: 93%;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: 0.25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        }
+        .task-lane-wrapper{
+            margin-top: 1rem;
+            color: #495057;
+            font-size: 1rem;
+            >select{
+                float: right;
+                cursor: pointer;
+                padding: 4px 8px;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+    .create-lane-btn{
+        background-color: #007bff;
+        border: 1px solid #007bff;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        color: white;
+        padding: 0.375rem 0.75rem;
+        border-radius: 0.25rem;
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+    }
+}

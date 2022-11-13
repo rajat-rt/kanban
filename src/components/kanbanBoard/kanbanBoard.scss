@@ -1,0 +1,71 @@
+.lane-wrapper{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+    margin: 2rem;
+    border-radius: 5px;
+    padding:2rem;
+    background-color: #F9F9F9;
+    overflow: scroll;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    .lane-list-wrapper{
+        margin-right: 2rem;
+        position: relative;
+        min-width: 20%;
+        width: 20%;
+        &:last-child{
+            margin-right: 0;
+        }
+        .lane-list{
+            margin-top: 16px;
+            height: 75vh;
+            overflow: scroll;
+        }
+        .lane-heading{
+            margin-top: 0;
+            margin-right: 1.5rem;
+            text-align: left;
+            text-transform: capitalize;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .lane-close-btn{
+            position: absolute;
+            top: 0;
+            right: 3px;
+            background: #F9F9F9;
+            color: black;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;;
+        }
+        .new-lane-btn{
+            padding: 2px 6px;
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            background: white;
+            margin-top: 1rem;
+            color: black;
+            font-size: 22px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .new-task-btn{
+            padding: 8px 12px;
+            width: 98%;
+            border: none;
+            border-radius: 5px;
+            background: white;
+            margin-top: 1rem;
+            color: black;
+            font-size: 12px;
+            font-weight: 600;
+            cursor: pointer;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+    }
+}

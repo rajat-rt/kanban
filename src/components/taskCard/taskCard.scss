@@ -1,0 +1,56 @@
+.task-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 0.75rem;
+    align-items: flex-start;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 12px;;
+    border: 1px solid rgba(149, 157, 165, 0.2);
+    border-radius: 6px;;
+    position: relative;
+    background-color: white;;
+    .type{
+        >div{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 8px;
+            &.Feature{
+                background-color: green;
+            }
+            &.Bug{
+                background-color: red;
+            }
+            &.Request{
+                background-color: blue;
+            }
+        }
+        >span{
+            font-size: 12px;
+            &.Feature{
+                color: green;
+            }
+            &.Bug{
+                color: red;
+            }
+            &.Request{
+                color: blue;
+            }
+        }
+        margin-bottom: 6px;;
+    }
+    .heading{
+        font-size: 12px;
+        font-weight: 500;
+        color: black;
+    }
+    .task-btn{
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
+    }
+}
